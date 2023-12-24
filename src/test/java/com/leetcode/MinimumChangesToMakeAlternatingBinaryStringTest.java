@@ -9,7 +9,8 @@ import java.util.stream.Stream;
 
 public class MinimumChangesToMakeAlternatingBinaryStringTest {
 
-    MinimumChangesToMakeAlternatingBinaryString minimumChangesToMakeAlternatingBinaryString = new MinimumChangesToMakeAlternatingBinaryString();
+    MinimumChangesToMakeAlternatingBinaryString minimumChangesToMakeAlternatingBinaryString =
+            new MinimumChangesToMakeAlternatingBinaryString();
 
     public static Stream<Arguments> getTestData() {
         return Stream.of(

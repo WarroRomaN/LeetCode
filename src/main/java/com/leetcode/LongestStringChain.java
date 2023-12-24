@@ -6,8 +6,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @link <a href="https://leetcode.com/problems/longest-string-chain/description/">Longest String Chain</a>
+ * @link <a href="https://leetcode.com/problems/longest-string-chain/">
+ * Longest String Chain
+ * </a>
  */
+
 public class LongestStringChain {
     public int longestStrChain(String[] words) {
 

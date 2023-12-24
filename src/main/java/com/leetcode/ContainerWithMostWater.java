@@ -1,8 +1,11 @@
 package com.leetcode;
 
 /**
- * @link <a href="https://leetcode.com/problems/container-with-most-water/description/">Container With Most Water</a>
+ * @link <a href="https://leetcode.com/problems/container-with-most-water/">
+ * Container With Most Water
+ * </a>
  */
+
 public class ContainerWithMostWater {
     public int maxArea(int[] height) {
         int max = 0;

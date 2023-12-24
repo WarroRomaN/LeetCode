@@ -3,7 +3,9 @@ package com.leetcode;
 import java.util.Arrays;
 
 /**
- * @link <a href="https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/">Widest Vertical Area Between Two Points Containing No Points</a>
+ * @link <a href="https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/">
+ * Widest Vertical Area Between Two Points Containing No Points
+ * </a>
  */
 
 public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {

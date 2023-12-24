@@ -1,8 +1,11 @@
 package com.leetcode;
 
 /**
- * @link <a href="https://leetcode.com/problems/is-subsequence/">Is Subsequence</a>
+ * @link <a href="https://leetcode.com/problems/is-subsequence/">
+ * Is Subsequence
+ * </a>
  */
+
 public class IsSubsequence {
     public boolean isSubsequence(String s, String t) {
         int index = 0;
@@ -11,7 +14,7 @@ public class IsSubsequence {
             if (tmp == -1) {
                 return false;
             }
-                index = index + 1 + tmp;
+            index = index + 1 + tmp;
 
         }
         return true;

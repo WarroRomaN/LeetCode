@@ -10,7 +10,6 @@ import java.util.stream.Stream;
 public class LongestStringChainTest {
 
     LongestStringChain longestStringChain = new LongestStringChain();
-
     public static Stream<Arguments> getTestData() {
         return Stream.of(
                 Arguments.of(new String[]{"a","b","ba","bca","bda","bdca"}, 4),

@@ -3,8 +3,11 @@ package com.leetcode;
 import java.util.Arrays;
 
 /**
- * @link <a href="https://leetcode.com/problems/largest-number/">Largest Number</a>
+ * @link <a href="https://leetcode.com/problems/largest-number/">
+ * Largest Number
+ * </a>
  */
+
 public class LargestNumber {
     public String largestNumber(int[] nums) {
         if (nums.length == 0)

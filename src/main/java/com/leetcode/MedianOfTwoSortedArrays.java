@@ -1,8 +1,11 @@
 package com.leetcode;
 
 /**
- * @link <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/">Median of Two Sorted Arrays</a>
+ * @link <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/">
+ * Median of Two Sorted Arrays
+ * </a>
  */
+
 public class MedianOfTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] result = new int[nums1.length + nums2.length];

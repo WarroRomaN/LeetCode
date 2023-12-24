@@ -1,7 +1,9 @@
 package com.leetcode;
 
 /**
- * @link <a href="https://leetcode.com/problems/path-crossing/">Path Crossing</a>
+ * @link <a href="https://leetcode.com/problems/path-crossing/">
+ * Path Crossing
+ * </a>
  */
 
 public class PathCrossing {

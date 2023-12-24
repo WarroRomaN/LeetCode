@@ -11,7 +11,6 @@ import java.util.stream.Stream;
 public class CountCompleteTreeNodesTest {
     CountCompleteTreeNodes countCompleteTreeNodes = new CountCompleteTreeNodes();
 
-
     public static Stream<Arguments> getTestData() {
         return Stream.of(
 

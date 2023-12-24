@@ -3,8 +3,11 @@ package com.leetcode;
 import java.util.Stack;
 
 /**
- * @link <a href="https://leetcode.com/problems/maximal-rectangle/">Maximal Rectangle</a>
+ * @link <a href="https://leetcode.com/problems/maximal-rectangle/">
+ * Maximal Rectangle
+ * </a>
  */
+
 public class MaximalRectangle {
     public int maximalRectangle(char[][] matrix) {
         if (matrix.length == 0)

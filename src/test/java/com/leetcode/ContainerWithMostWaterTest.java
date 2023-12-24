@@ -18,7 +18,6 @@ public class ContainerWithMostWaterTest {
         );
     }
 
-
     @ParameterizedTest
     @MethodSource("getTestData")
     public void testMaxArea(int[] height, int expected) {

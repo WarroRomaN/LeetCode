@@ -1,7 +1,11 @@
 package com.leetcode;
+
 /**
- * @link <a href="https://leetcode.com/problems/maximum-score-after-splitting-a-string/">Maximum Score After Splitting a String</a>
+ * @link <a href="https://leetcode.com/problems/maximum-score-after-splitting-a-string/">
+ * Maximum Score After Splitting a String
+ * </a>
  */
+
 public class MaximumScoreAfterSplittingString {
     public int maxScore(String s) {
         char[] chars = s.toCharArray();

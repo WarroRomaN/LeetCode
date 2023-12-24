@@ -18,7 +18,6 @@ public class PalindromeLinkedListTest {
         );
     }
 
-
     @ParameterizedTest
     @MethodSource("getTestData")
     public void testIsPalindrome(ListNode head, boolean expected) {

@@ -2,6 +2,12 @@ package com.leetcode;
 
 import com.leetcode.model.ListNode;
 
+/**
+ * @link <a href="https://leetcode.com/problems/palindrome-linked-list/">
+ * Palindrome Linked List
+ * </a>
+ */
+
 public class PalindromeLinkedList {
 
     public boolean isPalindrome(ListNode head) {

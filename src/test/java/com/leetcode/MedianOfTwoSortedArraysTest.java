@@ -9,6 +9,8 @@ import java.util.stream.Stream;
 
 public class MedianOfTwoSortedArraysTest {
 
+    MedianOfTwoSortedArrays medianOfTwoSortedArrays = new MedianOfTwoSortedArrays();
+
     public static Stream<Arguments> getTestData() {
         return Stream.of(
                 Arguments.of(new int[]{1, 3}, new int[]{2}, 2.0),
@@ -19,6 +21,6 @@ public class MedianOfTwoSortedArraysTest {
     @ParameterizedTest
     @MethodSource("getTestData")
     public void testFindMedianSortedArrays(int[] nums1, int[] nums2, double expected) {
-        Assertions.assertEquals(expected, new MedianOfTwoSortedArrays().findMedianSortedArrays(nums1, nums2));
+        Assertions.assertEquals(expected, medianOfTwoSortedArrays.findMedianSortedArrays(nums1, nums2));
     }
 }
