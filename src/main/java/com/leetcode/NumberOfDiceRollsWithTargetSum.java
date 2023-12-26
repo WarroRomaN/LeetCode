@@ -12,7 +12,7 @@ public class NumberOfDiceRollsWithTargetSum {
 
     public static final int MOD = (int) (Math.pow(10, 9) + 7);
 
-    public int numRollsToTarget(int n, int k, int target, int[][] res) {
+    private int numRollsToTarget(int n, int k, int target, int[][] res) {
         if (n < 0 || target < 0) {
             return 0;
         }
