@@ -14,8 +14,7 @@ public class MinimumTimeToMakeRopeColorful {
         for (int i = 0; i < chars.length - 1; i++) {
             if (chars[i] == chars[i + 1]) {
                 res += Math.min(neededTime[i], neededTime[i + 1]);
-                neededTime[i] = Math.max(neededTime[i], neededTime[i + 1]);
-                neededTime[i + 1] = neededTime[i];
+                neededTime[i + 1] = Math.max(neededTime[i], neededTime[i + 1]);
             }
         }
         return res;
